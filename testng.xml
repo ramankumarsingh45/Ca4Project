@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/RAMAN KUMAR SINGH/IdeaProjects/Ca4Epam/src/test/java/org/example/AppTest.java">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="url" value="http://webdriveruniversity.com/Dropdown-Checkboxes-RadioButtons/index.html"/>
+        <classes>
+            <class name="org.example.AppTest">
+                <methods>
+                    <include name="DropDown"/>
+                    <include name="CheckBox"/>
+                    <include name="radioButton"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
